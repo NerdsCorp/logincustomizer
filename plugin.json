@@ -4,7 +4,7 @@
   "author": "Dr.Reeves",
   "version": "1.0.0",
   "description": "Customize the Pelican Panel login page branding and appearance.",
-  "update_url": "https://raw.githubusercontent.com/NerdsCorp/logincustomizer/main/update.json",
+  "update_url": "https://hub.pelican.dev/plugins/logincustomizer/update.json",
   "category": "plugin",
   "namespace": "LoginCustomizer",
   "class": "LoginCustomizerPlugin",
