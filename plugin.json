@@ -1,0 +1,14 @@
+{
+    "id": "logincustomizer",
+    "name": "Login Customizer",
+    "author": "Dr.Reeves",
+    "version": "1.0.0",
+    "description": "Customize the Pelican Panel login page branding and appearance.",
+    "category": "plugin",
+    "namespace": "LoginCustomizer",
+    "class": "LoginCustomizerPlugin",
+    "panels": null,
+    "panel_version": null,
+    "api_version": 1,
+    "composer_packages": null
+}

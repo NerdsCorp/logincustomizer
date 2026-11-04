@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'override_themes' => filter_var(env('LOGIN_CUSTOMIZER_OVERRIDE_THEMES', false), FILTER_VALIDATE_BOOLEAN),
+    'title' => env('LOGIN_CUSTOMIZER_TITLE', ''),
+    'message' => env('LOGIN_CUSTOMIZER_MESSAGE', ''),
+    'logo_url' => env('LOGIN_CUSTOMIZER_LOGO_URL', ''),
+    'logo_width' => env('LOGIN_CUSTOMIZER_LOGO_WIDTH', ''),
+    'logo_height' => env('LOGIN_CUSTOMIZER_LOGO_HEIGHT', ''),
+    'background_url' => env('LOGIN_CUSTOMIZER_BACKGROUND_URL', ''),
+    'background_type' => env('LOGIN_CUSTOMIZER_BACKGROUND_TYPE', 'auto'),
+    'page_color' => env('LOGIN_CUSTOMIZER_PAGE_COLOR', ''),
+    'card_color' => env('LOGIN_CUSTOMIZER_CARD_COLOR', ''),
+    'card_opacity' => env('LOGIN_CUSTOMIZER_CARD_OPACITY', ''),
+    'card_radius' => env('LOGIN_CUSTOMIZER_CARD_RADIUS', ''),
+    'card_width' => env('LOGIN_CUSTOMIZER_CARD_WIDTH', ''),
+    'alignment' => env('LOGIN_CUSTOMIZER_ALIGNMENT', 'center'),
+    'font_family' => env('LOGIN_CUSTOMIZER_FONT_FAMILY', ''),
+    'text_color' => env('LOGIN_CUSTOMIZER_TEXT_COLOR', ''),
+    'accent_color' => env('LOGIN_CUSTOMIZER_ACCENT_COLOR', ''),
+    'button_text_color' => env('LOGIN_CUSTOMIZER_BUTTON_TEXT_COLOR', ''),
+    'link_color' => env('LOGIN_CUSTOMIZER_LINK_COLOR', ''),
+    'footer_text' => env('LOGIN_CUSTOMIZER_FOOTER_TEXT', ''),
+    'custom_css' => env('LOGIN_CUSTOMIZER_CUSTOM_CSS', ''),
+];
